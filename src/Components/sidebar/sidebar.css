@@ -1,0 +1,76 @@
+.sidebar {
+  flex: 1;
+  /* height: calc(100vh - 50px); */
+  /* height: 200vh !important; */
+  background-color: rgb(9, 103, 146);
+  text-decoration: none !important;
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: white;
+  top: 10px;
+  /* margin-top: 20px; */
+}
+
+.sidebarWrapper {
+  padding: 5px;
+  /* color: rgb(14, 14, 14); */
+  color: white;
+  text-decoration: none !important;
+
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+  text-decoration: none !important;
+  color: white;
+
+}
+
+.sidebarTitle {
+  font-size: 13px;
+  color: white;
+  text-decoration: none !important;
+
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  text-decoration: none !important;
+
+
+}
+
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-decoration: none !important;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  /* background-color: rgb(240, 240, 255); */
+  text-decoration: none !important;
+
+}
+
+.sidebarIcon{
+    margin-right: 5px;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    color: white;
+
+}
+
+.card_nav{
+  height: 400vh;
+  width: 13%;
+  background-color: rgb(9, 103, 146)!important;
+}
